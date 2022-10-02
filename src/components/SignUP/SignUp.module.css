@@ -1,0 +1,26 @@
+.signUpInfo {
+  max-width: 700px;
+  margin: auto;
+}
+
+.floatingLabel {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .signUpInfo {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signUpInfo {
+    max-width: 100%;
+  }
+}
+
+.button {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
